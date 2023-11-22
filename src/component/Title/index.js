@@ -4,7 +4,7 @@ import { Text} from "react-native";
 import styles from './styles';
 
 const Title = ({text}) =>{
-    const[stateText, setText] = useState('Default State');
+    const[stateText, setText] = useState('Default');
      const onTextPressed = () =>{
         setText='Updated'
      }
